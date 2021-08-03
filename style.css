@@ -1,0 +1,40 @@
+body {
+    background-color: deepskyblue;
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+}
+
+img {
+    border-radius: 100px;
+}
+
+h1 {
+    text-shadow: 2px 2px #FABBDO;
+    font-size: 20px
+}
+
+p {
+    font-size: 18px;
+    color: #6AIB9A;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    display: inline
+}
+
+.link {
+    text-decoration: underline
+}
+
+.link:hover {
+    background-color: blueviolet;
+    text-decoration: bold;
+    z-index: 10px;
+}
